@@ -74,6 +74,24 @@ alternativas:[
     },
 ];
 
+let atual= 0;
+let perguntaAtual;
+let historiaFinal="";
+
+function mostraPergunta(){
+    if(atual >=perguntas.length){
+        mostraResultado();
+        return;
+    }
+    perguntaAtual=perguntas[atual];
+    caixaPerguntas.textoContent = perguntaAtual.enunciado;
+    caixaAlternativas.textoContent="";
+    mostraAlternativas();
+}
+
+function mostraAlternativas(){
+    for(const alternativas of perguntaAtual.alternativas);
+}
 
 
 
