@@ -1,5 +1,4 @@
 :root{
-
     --cor-fundo: #b725ec;
     --cor-principal: #0b0d20;
     --cor-secundaria: #2bdefd;
@@ -8,7 +7,6 @@
 }
 
 body{
-
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     display: flex;
@@ -19,7 +17,6 @@ body{
 
 
 h1{
-
     color: var(--cor-secundaria);
 }
 
@@ -30,10 +27,24 @@ border: none;
 border-radius: 15px;
 padding: 15px;
 transition:background-color 0.3s;
-
 }
 
 button:hover{
     background-color: var(--cor-destaque);
     color:var(--cor-principal);
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+
+#mascaras{
+    width: 95%;
+    border-radius: 15px;
+    padding: 30px;
 }
